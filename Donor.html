@@ -1,0 +1,285 @@
+<html>
+	<title>Donor</title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<body>
+
+<style>
+
+.w3-btn {
+      box-shadow: 1px 2px 5px #000000;   
+  }
+  
+  </style>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card-2">
+    <a href="#home" class="w3-bar-item w3-button" style="color:#ffb3b3"><b style="color:#4348bd; font-family:serif;">Happiness</b> Bomb</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button" style="color:#4348bd">About</a>
+	  <a href="#donate" class="w3-bar-item w3-button" style="color:#ffb3b3">Donate</a>
+      <a href="#contact" class="w3-bar-item w3-button" style="color:#4348bd">Contact</a>
+	  <a href="Login.html" class="w3-bar-item w3-button" style="color:#4348bd">Sign out</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  
+	<div class="w3-content w3-section" style="max-width:100%">
+  
+		<div class="w3-display-container mySlides">
+	
+			<img src="b.jpg" style="width:100% ; height:100%">
+			
+				<div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black" style = "opacity:0.2;"> Happiness Bomb </div>
+	
+		</div>
+  <div class="w3-display-container mySlides">
+  <img src="d.jpg" style="width:100% ; height:100%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black" style = "opacity:0.2;"> Happiness Bomb </div>
+  </div>
+</div>
+<div class="w3-display-container mySlides">
+  <img src="e.jpg" style="width:100% ; height:100%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black" style = "opacity:0.2;"> Happiness Bomb </div>
+  </div>
+</div>
+<div class="w3-display-container mySlides">
+  <img src="f.jpg" style="width:100% ; height:100%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black" style = "opacity:0.2;"> Happiness Bomb </div>
+  </div>
+</div>
+<div class="w3-display-container mySlides">
+  <img src="g.jpg" style="width:100% ; height:100%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black" style = "opacity:0.2;"> Happiness Bomb </div>
+  </div>
+</div>
+<div class="w3-display-container mySlides">
+  <img src="h.jpg" style="width:100% ; height:100%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black" style = "opacity:0.2;"> Happiness Bomb </div>
+  </div>
+</div>
+<div class="w3-display-container mySlides">
+  <img src="i.jpg" style="width:100% ; height:100%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black" style = "opacity:0.2;"> Happiness Bomb </div>
+  </div>
+</div>
+<div class="w3-display-container mySlides">
+  <img src="z.jpg" style="width:100% ; height:100%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black" style = "opacity:0.2;"> Happiness Bomb </div>
+  </div>
+</div>
+</div>
+
+</header>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000);    
+}
+</script>
+<!-- Page content -->
+<!--<div class="w3-content w3-padding" style="max-width:1564px">-->
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" style="color:#4348bd">About</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+  </div>
+
+  <div class="container text-center">
+  <h3 style="color:#ffb3b3">TEAM</h3>
+  <p><em>We protect people</em></p>
+  <br>
+  <div class="row">
+  <div class="w3-container w3-center w3-animate-zoom">
+    <div class="col-sm-4">
+      <p><strong>Ali Raza Bhadera</strong></p><br>
+      <img src="ALI.jpg" alt="Random Name" class="w3-hover-grayscale" width="255" height="255">
+    </div>
+    <div class="col-sm-4">
+      <p><strong>Azaz Hassan</strong></p><br>
+      <img src="AZAZ.jpg" alt="Random Name" class="w3-hover-grayscale" width="255" height="255">
+    </div>
+
+  </div>
+  </div>
+</div>
+  </div>
+   
+  <!-- Donate Section -->
+  <div class="w3-container w3-padding-32" id="donate">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" style="color:#ffb3b3">Donate</h3>
+    <form action="InsertDonor.php" method="POST" target="_blank" align="center">
+	
+	<div class = "row">
+		
+		<div class = "col-sm-4"> 
+			
+			<label  style="padding-top:5px; color:#4348bd"> Victoms List </label>
+						
+		</div>
+	
+		<div class = "col-sm-6"> 
+		
+			<select class = "w3-input"  required name="VictomName">
+								<option> Ali </option>
+								<option> Umer </option>
+								<option> Usama </option>
+								<option> Raza </option>	
+								<option> Usman  </option>
+			
+			</select> 
+	
+		</div>	
+			
+	</div>
+	<br>
+	
+	<button type="button"  ><a href = "VictomDetails.html" class="w3-btn w3-blue"> Show Details of Victoms</a></button>
+	<br> <br>
+      <input class="w3-input" type="text" placeholder="First Name" required style="color:#4348bd" name="FirstName" > <br>
+	  <input class="w3-input" type="text" placeholder="Last Name" required style="color:#4348bd" name="LastName">
+      <input class="w3-input w3-section" type="text" placeholder="Email" required  style="color:#4348bd" name="Email">
+	  <input class="w3-input w3-section" type="number" placeholder="Contact" required style="color:#4348bd" name="Contact">
+	  <input class="w3-input w3-section" type="number" placeholder="mm/dd/yy" required style="color:#4348bd" name="Date">
+	  <input class="w3-input w3-section" type="number" placeholder="Amount" required style="color:#4348bd" name="Amount">
+	  
+	  <div class = "row">
+		
+		<div class = "col-sm-4"> 
+			
+			<label  style="padding-top:5px; color:#4348bd"> Payment Procedure </label>
+						
+		</div>
+	
+		<div class = "col-sm-6"> 
+		
+			<select class = "w3-input"  required name="PaymentProcedure">
+								<option> Credit Card </option>
+								<option> Bank </option>
+								<option> Cash </option>
+			
+			</select> 
+	
+		</div>	
+			
+	</div>
+	<br>
+	  
+	  
+      <input class="w3-input w3-section" type="text" placeholder="Comment" required name="comment" >
+	<br> <br>
+	
+	<button class="w3-btn w3-blue" type="submit"> DONATE </button>
+	<button class="w3-btn w3-blue" type="submit" onclick="document.getElementById('id01').style.display='block'"> UPDATE </button>
+	<button class="w3-btn w3-blue" type="cancel"> CANCEL </button>
+	 
+    </form>
+ 
+  </div>
+  
+  <div id="id01" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container w3-blue"> 
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-large w3-display-topright">&times;</span>
+        <h2>UPDATE</h2>
+      </header>
+      <div class="w3-container">
+        <input class="w3-input" type="text" placeholder="First Name" style="color:#4348bd" > <br>
+	  <input class="w3-input" type="text" placeholder="Last Name" style="color:#4348bd" >
+      <input class="w3-input w3-section" type="text" placeholder="Email"   style="color:#4348bd">
+      </div>
+      <footer class="w3-container" style= "padding-left:40%;">
+        <button class="w3-btn w3-blue" type="submit"  ><a href = "UpdateDonor.html"> Update</a></button>
+      </footer>
+    </div>
+  </div>
+  
+  <!-- Contact Section -->
+<div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" style="color:#4348bd">Contact</h3>
+  <form action="/action_page.php" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin">
+
+ 
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="first" type="text" placeholder="Name">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-envelope-o"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="email" type="text" placeholder="Email">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-phone"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="phone" type="text" placeholder="Phone">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-pencil"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="message" type="text" placeholder="Message">
+    </div>
+</div>
+
+<p class="w3-center">
+<button class="w3-btn w3-blue"><i class="fa fa-paper-plane"></i> SEND MESSAGE </button>
+</p>
+</form>
+</div>
+
+
+  
+<!-- End page content -->
+<div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <h4>Follow Us</h4>
+  <a class="w3-button w3-large w3-blue"  title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-blue"  title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-blue"  title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-blue"  title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-blue w3-hide-small"  title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <p>Powered by <u>Shahzaib Shahid</u></p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#home"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+</body>
+</html>
